@@ -119,6 +119,7 @@
 				4EB847621D8BB7D600AA76AF /* Frameworks */,
 				4EB847631D8BB7D600AA76AF /* Headers */,
 				4EB847641D8BB7D600AA76AF /* Resources */,
+				4EEF71AA1D8BC22C00CB0045 /* Copy Distribution Framework */,
 			);
 			buildRules = (
 			);
@@ -204,6 +205,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EEF71AA1D8BC22C00CB0045 /* Copy Distribution Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Distribution Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"*** Copying the framework ***\"\n\nPRODUCT_PATH=\"${BUILT_PRODUCTS_DIR}/${PROJECT_NAME}.framework\"\n\nFRAMEWORK_PATH=\"${SRCROOT}/Frameworks\"\nrm -rf \"${FRAMEWORK_PATH}\"\nmkdir \"${FRAMEWORK_PATH}\"\n\ncp -r \"${PRODUCT_PATH}\" \"${FRAMEWORK_PATH}/${PROJECT_NAME}.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4EB847611D8BB7D600AA76AF /* Sources */ = {
