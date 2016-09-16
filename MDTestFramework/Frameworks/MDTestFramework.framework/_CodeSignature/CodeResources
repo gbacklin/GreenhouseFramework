@@ -16,13 +16,21 @@
 		<data>
 		ZGzY54tOV5dGN5NIhFC3P+JU3qY=
 		</data>
+		<key>Modules/MDTestFramework.swiftmodule/i386.swiftdoc</key>
+		<data>
+		cOhLG3w19/KMqAQfLk6r1JEEHzg=
+		</data>
+		<key>Modules/MDTestFramework.swiftmodule/i386.swiftmodule</key>
+		<data>
+		NrvScpXLtNe8DMvvoMogqMtv954=
+		</data>
 		<key>Modules/MDTestFramework.swiftmodule/x86_64.swiftdoc</key>
 		<data>
 		hPBtQxJplb2u/y4xf3YB0KOQEzc=
 		</data>
 		<key>Modules/MDTestFramework.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		67cRtAopO0DDduyMSkV6qSmZVHQ=
+		yQx8WUGnz6Bc7dJnt/f0p16cwjw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,6 +61,28 @@
 			ujiZ/HqXPfhlo4VuwVviqJ60aXZmAQCiD5cydzl0oe8=
 			</data>
 		</dict>
+		<key>Modules/MDTestFramework.swiftmodule/i386.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cOhLG3w19/KMqAQfLk6r1JEEHzg=
+			</data>
+			<key>hash2</key>
+			<data>
+			o+maRLqJU2+ojC2M9yVN5a5BsQd6bGGfP3tRwF7f3XI=
+			</data>
+		</dict>
+		<key>Modules/MDTestFramework.swiftmodule/i386.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NrvScpXLtNe8DMvvoMogqMtv954=
+			</data>
+			<key>hash2</key>
+			<data>
+			j2MpXR79BYWacuVUiT1dttD6A6nmttonLjVYSfBBxT8=
+			</data>
+		</dict>
 		<key>Modules/MDTestFramework.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
@@ -68,11 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			67cRtAopO0DDduyMSkV6qSmZVHQ=
+			yQx8WUGnz6Bc7dJnt/f0p16cwjw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ii1Jd5XiU4Ex6zeMvdqPDRwcedEWdLlSzu30YKOtiho=
+			DZRD7zu61G/oO0DBVAjquG9WxqdwemuItTHDyVZWO2g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
