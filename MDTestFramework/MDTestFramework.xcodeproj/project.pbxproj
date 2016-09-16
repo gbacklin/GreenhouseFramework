@@ -10,6 +10,7 @@
 		4EB847701D8BB7D600AA76AF /* MDTestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB847661D8BB7D600AA76AF /* MDTestFramework.framework */; };
 		4EB847751D8BB7D600AA76AF /* MDTestFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB847741D8BB7D600AA76AF /* MDTestFrameworkTests.swift */; };
 		4EB847771D8BB7D600AA76AF /* MDTestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB847691D8BB7D600AA76AF /* MDTestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EEF716D1D8BBD9C00CB0045 /* MDTestFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF716C1D8BBD9C00CB0045 /* MDTestFramework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		4EB8476F1D8BB7D600AA76AF /* MDTestFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDTestFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB847741D8BB7D600AA76AF /* MDTestFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDTestFrameworkTests.swift; sourceTree = "<group>"; };
 		4EB847761D8BB7D600AA76AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEF716C1D8BBD9C00CB0045 /* MDTestFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDTestFramework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				4EB847691D8BB7D600AA76AF /* MDTestFramework.h */,
+				4EEF716B1D8BBD8600CB0045 /* Classes */,
 				4EB8476A1D8BB7D600AA76AF /* Info.plist */,
 			);
 			path = MDTestFramework;
@@ -84,6 +87,14 @@
 				4EB847761D8BB7D600AA76AF /* Info.plist */,
 			);
 			path = MDTestFrameworkTests;
+			sourceTree = "<group>";
+		};
+		4EEF716B1D8BBD8600CB0045 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4EEF716C1D8BBD9C00CB0045 /* MDTestFramework.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 					4EB847651D8BB7D600AA76AF = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8DT5Y3HP4L;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					4EB8476E1D8BB7D600AA76AF = {
@@ -198,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEF716D1D8BBD9C00CB0045 /* MDTestFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +335,7 @@
 		4EB8477B1D8BB7D600AA76AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
@@ -334,6 +348,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.marizack.MDTestFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +356,7 @@
 		4EB8477C1D8BB7D600AA76AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
@@ -360,6 +376,7 @@
 		4EB8477E1D8BB7D600AA76AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = MDTestFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +389,7 @@
 		4EB8477F1D8BB7D600AA76AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
 				INFOPLIST_FILE = MDTestFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +418,7 @@
 				4EB8477C1D8BB7D600AA76AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EB8477D1D8BB7D600AA76AF /* Build configuration list for PBXNativeTarget "MDTestFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +427,7 @@
 				4EB8477F1D8BB7D600AA76AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
