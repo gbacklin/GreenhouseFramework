@@ -1,7 +1,8 @@
 language: objective-c
 osx_image: xcode8
-xcode_project: MDTestFramework/MDTestFramework.xcodeproj
-xcode_scheme: Release
+script: xcodebuild -project MDTestFramework/MDTestFramework.xcodeproj -scheme Release
+#xcode_project: MDTestFramework/MDTestFramework.xcodeproj
+#xcode_scheme: Release
 #xcode_sdk: iphonesimulator
 # safelist
 branches:
