@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode8
-xcode_workspace: TestGreenhouse.xcworkspace
+xcode_project: MDTestFramework.xcodeproj
 xcode_scheme: Release
 xcode_sdk: iphonesimulator
 # safelist
