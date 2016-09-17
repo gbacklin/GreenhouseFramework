@@ -10,6 +10,8 @@ import UIKit
 
 public class MDTestFramework: NSObject {
     
+    // Sample method
+    
     public class func hello() {
         print("Hello")
     }
